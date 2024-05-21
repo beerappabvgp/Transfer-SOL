@@ -13,7 +13,7 @@ This guide will help you transfer SOL from one account to another using a web in
 
 Open the web application and connect your wallet using the Phantom browser extension or another compatible wallet.
 
-![Connect Wallet](path/to/your/connect-wallet-image.png)
+![Connect Wallet](https://github.com/beerappabvgp/Transfer-SOL/blob/main/public/assets/image.png)
 
 ### Step 2: Enter the Receiver Address
 
@@ -37,13 +37,13 @@ Once the transaction is confirmed, you can view its details on a Solana block ex
 
 ## Deployed Application
 
-You can access the deployed application using the following link: [Deployed Application Link](https://your-deployed-app-link.com)
+You can access the deployed application using the following link: [Deployed Application Link](https://transfer-sol-o4id-dz32drjcu-bharaths-projects-608d7e3a.vercel.app)
 
 ## Frontend Screenshot
 
 Below is a screenshot of the frontend interface for transferring SOL:
 
-![Frontend Interface](path/to/your/frontend-image.png)
+![Frontend Interface](https://github.com/beerappabvgp/Transfer-SOL/blob/main/public/assets/transfer.png)
 
 ## Additional Resources
 
@@ -57,4 +57,3 @@ If you encounter any issues, refer to the following:
 - Ensure your Phantom wallet is properly installed and connected.
 - Verify that the source account has enough SOL to cover both the transfer amount and the transaction fee.
 - Check network status and any potential network issues on the [Solana Status](https://status.solana.com/) page.
-
