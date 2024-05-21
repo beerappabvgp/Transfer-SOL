@@ -3,10 +3,15 @@ import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui"
 import * as walletAdapterWallets from '@solana/wallet-adapter-wallets'
 import * as web3 from '@solana/web3.js';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 require('@solana/wallet-adapter-react-ui/styles.css');
+import { ReactNode } from 'react';
 
-const WalletContextProvider = ({ children }) => {
+interface WalletContextProviderProps {
+    children: ReactNode;
+}
+
+const WalletContextProvider: React.FC<WalletContextProviderProps> = ({ children }) => {
 
     const endpoint = web3.clusterApiUrl('devnet');
     const wallets = [
